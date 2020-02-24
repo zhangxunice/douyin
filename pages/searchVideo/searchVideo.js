@@ -45,6 +45,7 @@ Page({
   mySearchFunction: function(value) {
     // do your job here
     // 示例：跳转
+    
     wx.redirectTo({
       url: '../index/index?isSave=1&searchValue=' + value
     })

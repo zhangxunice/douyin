@@ -46,16 +46,16 @@
 
     </cover-view>
 
-    <!-- <cover-view class='container-bottom'> -->
+    <cover-view class='container-bottom'>
       <!-- 首页按钮 -->
-      <!-- <cover-image class='' src='/images/index.png' class="size-bottom" bindtap='showIndex'></cover-image> -->
+      <cover-image class='' src='/images/index.png' class="size-bottom" bindtap='showIndex'></cover-image>
 
 
 
       <!-- 我的按钮 -->
-      <!-- <cover-image class='' src='/images/mine.png' class="size-bottom" bindtap='showMine'></cover-image>
+      <cover-image class='' src='/images/mine.png' class="size-bottom" bindtap='showMine'></cover-image>
 
-    </cover-view> -->
+    </cover-view>
 
 
   </video>

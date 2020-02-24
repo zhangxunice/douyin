@@ -71,6 +71,7 @@ Page({
 
   showPublisher: function() {
     var video = this.data.videoInfo
+    
     wx.navigateTo({
       url: '../mine/mine?publisherId=' + video.userId,
     })
@@ -156,6 +157,26 @@ Page({
 
     this.getCommentsList(1)
     
+  },
+
+  showIndex: function () {
+    wx.redirectTo({
+      url: '../index/index',
+    })
+  },
+
+  showMine: function () {
+    var user = app.getGlobalInfo();
+
+    if (user == null || user == undefined || user == '') {
+      wx.navigateTo({
+        url: '../login/login',
+      })
+    } else {
+      wx.navigateTo({
+        url: '../mine/mine',
+      })
+    }
   },
 
   /**

@@ -46,7 +46,7 @@ Page({
               duration: 2000
             })
             wx.redirectTo({
-              url: '../../mine/mine',
+              url: '../../index/index',
             })
             // app.userInfo = res.data.data
             app.setGlobalInfo(res.data.data)
